@@ -53,10 +53,10 @@ client.on('interactionCreate', async (interaction) => {
 
     const text =
       `_ _\n` +
-      `_ _ \`new queue ﹕ ♡ **__ongoing__**\`\n` +
-      `_ _ \`bought ﹕✧ ${bought}\`\n` +
-      `_ _ \`position ﹕✦ ${position}\`\n` +
-      `_ _ \`user ﹕✧ <@${user.id}>\`\n` +
+      `_ _ \`new queue ﹕ ♡\` **__ongoing__**\n` +
+      `_ _ \`bought ﹕✧\` ${bought}\n` +
+      `_ _ \`position ﹕✦\` ${position}\n` +
+      `_ _ \`user ﹕✧\` <@${user.id}>\n` +
       `_ _`;
 
     try {
@@ -96,10 +96,10 @@ client.on('interactionCreate', async (interaction) => {
 
     const text =
       `_ _\n` +
-      `_ _ \`new queue ﹕ ♡ **__${status}__**\`\n` +
-      `_ _ \`bought ﹕✧ ${entry.bought}\`\n` +
-      `_ _ \`position ﹕✦ ${entry.position}\`\n` +
-      `_ _ \`user ﹕✧ <@${entry.userId}>\`\n` +
+      `_ _ \`new queue ﹕ ♡\` **__${status}__**\n` +
+      `_ _ \`bought ﹕✧\` ${entry.bought}\n` +
+      `_ _ \`position ﹕✦\` ${entry.position}\n` +
+      `_ _ \`user ﹕✧\` <@${entry.userId}>\n` +
       `_ _`;
 
     const select = new StringSelectMenuBuilder()
